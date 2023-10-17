@@ -11,7 +11,7 @@
             <input type="checkbox" id="currentTime" v-model="isCurrentTime" />
           </label>
           <input v-if="!isCurrentTime" type="text" id="manualTime" v-model="manualTime"
-            class="border border-gray-300 rounded-md p-2 focus:outline-none focus:border-blue-500 w-full" />
+            class="border border-gray-300 rounded-md p-2 focus:outline-none focus:border-blue-500 w-full mt-4" />
         </div>
       </div>
       <button @click="submitForm" class="bg-blue-500 text-white text-xl py-2 px-4 rounded-md hover:bg-blue-700 w-full">

@@ -1,7 +1,7 @@
 <template>
     <header class="bg-secondary text-secundary py-4">
         <nav class="container mx-auto flex justify-between items-center">
-            <div class="flex space-x-4">
+            <div class="flex space-x-4 items-center">
                 <img src="../assets/img/book.png" alt="">
                 <a href="/" class="text-4xl font-bold text-secondary-content">Guestbook</a>
             </div>
