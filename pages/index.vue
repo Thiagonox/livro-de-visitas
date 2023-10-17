@@ -1,7 +1,7 @@
 <template>
   <div class="flex justify-around items-center h-screen w-2/3 mx-auto">
-    <form class="bg-neutral/25 shadow-md rounded-lg w-1/3 h-1/2 p-6 flex flex-col justify-around">
-      <h2 class="text-4xl text-white font-bold text-center">Registrar Presença</h2>
+    <form class="bg-neutral/25 shadow-md rounded-lg w-1/3 h-1/2 p-10 flex flex-col justify-around">
+      <h2 class="text-4xl text-secundary font-bold text-center">Registrar Presença</h2>
       <div class="space-y-4">
         <label for="name" class="text-xl text-white-700">Nome</label>
         <input type="text" id="name" v-model="name"
@@ -19,7 +19,7 @@
       </button>
     </form>
     <div class="flex flex-col justify-between items-center">
-      <h1 class="text-4xl text-white font-light text-center mb-10">o evento acabará em:</h1>
+      <h1 class="text-4xl text-secundary font-light text-center mb-10">o evento acabará em:</h1>
       <Coldown />
       <div class="divider"></div>
       <Stats />

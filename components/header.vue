@@ -1,13 +1,14 @@
 <template>
-    <header class="bg-secondary text-white py-4">
+    <header class="bg-secondary text-secundary py-4">
         <nav class="container mx-auto flex justify-between items-center">
-            <div>
-                <a href="/" class="text-4xl font-bold">Livro de Visitas</a>
+            <div class="flex space-x-4">
+                <img src="../assets/img/book.png" alt="">
+                <a href="/" class="text-4xl font-bold text-secondary-content">Guestbook</a>
             </div>
             <div class="hidden md:block text-2xl">
                 <ul class="flex space-x-4">
-                    <li><a href="/" class="hover:text-gray-300">Home</a></li>
-                    <li><a href="/listar" class="hover:text-gray-300">Listar</a></li>
+                    <li><a href="/" class="hover:text-neutral-focus text-primary-content">Home</a></li>
+                    <li><a href="/listar" class="hover:text-neutral-focus text-primary-content">Listar</a></li>
                 </ul>
             </div>
             <div class="md:hidden">
@@ -21,8 +22,8 @@
         </nav>
         <div v-if="isOpen" class="md:hidden text-xl">
             <ul class="flex flex-col space-y-2">
-                <li><a href="/" class="hover:text-gray-300">Home</a></li>
-                <li><a href="/listar" class="hover:text-gray-300">Listar</a></li>
+                <li><a href="/" class="hover:text-secundary">Home</a></li>
+                <li><a href="/listar" class="hover:text-secundary">Listar</a></li>
             </ul>
         </div>
     </header>
