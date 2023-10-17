@@ -31,7 +31,7 @@
   export default {
     data() {
       return {
-        targetDate: new Date('2023-10-20T22:00:00'), // Defina a data alvo
+        targetDate: new Date('2023-10-17T18:30:00'), // Defina a data alvo
         days: 0,
         hours: 0,
         minutes: 0,

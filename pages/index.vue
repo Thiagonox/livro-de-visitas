@@ -19,7 +19,7 @@
       </button>
     </form>
     <div class="flex flex-col justify-between items-center">
-      <h1 class="text-4xl text-secundary font-light text-center mb-10">o evento acabará em:</h1>
+      <h1 class="text-4xl text-secundary font-light text-center mb-10">a sala será encerrada em::</h1>
       <Coldown />
       <div class="divider"></div>
       <Stats />
