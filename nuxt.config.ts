@@ -4,6 +4,11 @@ export default {
       name: 'listar',
       path: '/listar',
       component: '~/pages/listar.vue'
+    },
+    {
+      name: 'dashboard',
+      path: '/dashboard',
+      component: '~/pages/dashboard.vue'
     }
   ],
   devtools: { enabled: true },

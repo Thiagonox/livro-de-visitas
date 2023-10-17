@@ -1,6 +1,6 @@
 <template>
-  <div class="flex justify-around items-center h-screen w-2/3 mx-auto">
-    <form class="bg-neutral/25 shadow-md rounded-lg w-1/3 h-1/2 p-10 flex flex-col justify-around">
+  <div class="md:flex justify-around items-center h-screen w-2/3 mx-auto">
+    <form class="bg-neutral/25 shadow-md rounded-lg md:w-1/3 w-full h-1/2 p-10 flex flex-col justify-around">
       <h2 class="text-4xl text-secundary font-bold text-center">Registrar Presença</h2>
       <div class="space-y-4">
         <label for="name" class="text-xl text-white-700">Nome</label>
